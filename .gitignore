@@ -1,0 +1,5 @@
+#Visual Studio Files
+main/.vs/*
+
+#Twit npm
+main/node_modules/*
