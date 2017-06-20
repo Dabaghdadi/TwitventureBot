@@ -5,16 +5,14 @@ var Twit = require('twit');
 var config = require('./config');
 var T = new Twit(config);
 
-const storyData = require('./stories/TaleOfDank.json');
+var story = require('./story.js')
+//const storyData = require('./stories/TaleOfDank.json');
 
 //Main
 console.log('**\nBot Init\n**\n');
 
 var tweetCount = 0;
 var tweetNext = 1;
-var tweetTitle = storyData.tvb.title;
-var tweetTitleLength = tweetTitle.length;
-var tweetMaxCount = storyData.tvb.tweetCount;
 
 console.log('-Twitventure Title: ' + tweetTitle + '\n');
 console.log('-Tweet Max Count: ' + tweetMaxCount);
