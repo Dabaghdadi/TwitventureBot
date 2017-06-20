@@ -3,3 +3,4 @@ main/.vs/*
 
 #Twit npm
 main/node_modules/*
+main/config.js
